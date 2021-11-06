@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: com.fix8mt.ufe.sample.Sample
+Class-Path: jzmq-core-3.1.1-SNAPSHOT.jar jzmq-devices-3.1.1-SNAPSHOT.jar
+  jzmq-jni-3.1.1-SNAPSHOT.jar protobuf-java-3.7.1.jar java-getopt-1.0.14
+ .jar jzmq-jni-3.1.1-SNAPSHOT-native-amd64-Linux.jar protobuf-java-util-
+ 3.7.1.jar
+
