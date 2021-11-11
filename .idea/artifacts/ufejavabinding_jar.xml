@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="ufejavabinding:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ufeedclient</output-path>
+    <root id="root">
+      <element id="archive" name="ufeedclient-21.9.jar">
+        <element id="module-output" name="ufejavabinding" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/3rdparty/jzmq-core-3.1.1-SNAPSHOT.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/3rdparty/jzmq-devices-3.1.1-SNAPSHOT.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/3rdparty/jzmq-jni-3.1.1-SNAPSHOT.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/3rdparty/protobuf-java-3.7.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/3rdparty/java-getopt-1.0.14.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/3rdparty/jzmq-jni-3.1.1-SNAPSHOT-native-amd64-Linux.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/3rdparty/protobuf-java-util-3.7.1.jar" />
+    </root>
+  </artifact>
+</component>
