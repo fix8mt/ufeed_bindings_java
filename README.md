@@ -1,6 +1,6 @@
 # UFEed Java Bindings
 -   [Introduction](#introduction)
--   [Getting started](#getting started)
+-   [Getting started](#getting-started)
 -   [Interface](#interface)
     -   [UFEMessage and UFEMessage Builder](#ufemessage-and-ufemessage-builder)
     -   [UFEedClient](#ufeedclient)
