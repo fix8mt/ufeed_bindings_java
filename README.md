@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://www.fix8mt.com"><img src="fix8mt_Master_Logo_Green_Trans.png" width="200"></a>
+</p>
+
 # UFEed Java Bindings
 -   [Introduction](#introduction)
 -   [Getting started](#getting-started)
@@ -160,7 +164,7 @@ public static class Builder {
     public Builder addFields(Iterable<UFEField> fields);
     public Builder addGroup(int tag, GroupBuilderRef group, GroupTransformFunc tr, UFEFieldLocation loc);
     public Builder addGroupItem(UFEField.Builder group);
-    
+
     /**
     * Builds UFEMessage when composing is complete. Message is ummutable agter the call.
     * @return Immutable composed UFEMessage
@@ -234,7 +238,7 @@ UFEMessage.Builder login = _uc.createMessage()
     .addField(UFE_CMD, UFE_CMD_LOGIN, fl_system)
     .addField(UFE_LOGIN_ID, "webuser", fl_system)
     .addField(UFE_LOGIN_PW, "5e884898da28047151d0e56f8dc", fl_system);
-// UFEedClient send methods accept builder class 
+// UFEedClient send methods accept builder class
 UFEMessage loginMsg = login.build();
 UFEField loginId = loginMsg.findField(UFE_LOGIN_ID);
 Object loginPw = loginMsg.findFieldValue(UFE_LOGIN_PW);
